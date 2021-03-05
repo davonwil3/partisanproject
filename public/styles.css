@@ -1,0 +1,270 @@
+html{
+height:100%;
+
+
+}
+body{
+
+width: 100%;
+height: 100%;
+overflow-y: scroll;
+display:inline-block;
+}
+em{
+
+    font-style: normal;
+}
+#frontpage{
+    background-image: url(/assets/heroimage.jpg);
+    background-size: cover;
+    height: 55vw;
+    min-height: 700px;
+    width:100%;
+  
+   
+
+}
+.color-nav{
+
+    background-color: transparent;
+    height: 4vh;
+
+
+}
+#app-features{
+
+    background-image: url(/assets/Stars.jpg);
+    background-size: cover;
+    height: 55vw;
+    min-height: 600px;
+    width:100%;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+   
+
+
+
+
+}
+.features{
+
+display: flex;
+flex-direction: row;
+align-items: baseline;
+justify-content: center;
+width: 100%;
+align-self: center;
+
+
+}
+
+
+.wrapper{
+
+    height: 50vw;
+    min-height: 600px;
+    width:100%;
+    background-color:transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 90px;
+
+
+
+
+}
+
+
+.heading{
+
+    color: lightblue;
+  
+    text-align: center;
+ 
+    margin-bottom: 65px;
+
+
+
+}
+
+.login-container{
+
+    width: 430px;
+    height:390px;
+    background-color: white;
+   
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin-bottom: 115px;
+    min-height: 410px;
+  
+
+}
+
+.divider{
+
+    height:1px;
+    width: 100%;
+    border: .5px solid lightgray;
+    margin-top: 30px;
+
+
+
+}
+.features-title{
+    color: #2699FB;
+}
+.features-description{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   
+    width: 350px;
+    justify-content: baseline;
+    margin: 60px;
+    
+
+
+}
+#forumsPage{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width:100%;
+    height: 93vh;
+    background-color: #EFF2F5;
+    overflow-y: scroll;
+    padding-top: 30px;
+   
+
+
+
+
+
+
+}
+
+.forum-categories{
+
+    display: flex;
+    flex-direction: column;
+    
+    width:300px;
+    height: 65.7vh;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 80px;
+    padding-left: 30px;
+    line-height: 50px;
+    font-weight: lighter;
+
+}
+
+.forum-feed{
+
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width:630px;
+    height: 89.4vh;
+    justify-content: flex-start;
+    align-items: center;
+    border: gray .1px solid;
+    
+}
+    
+.forum-advertisement
+{
+
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width:300px;
+    height: 65.7vh;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+        
+}
+.forum-topic{
+
+    background-color: #30408E;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+
+}
+.forum-title{
+    color: white;
+    font-style: normal;
+    font-size: 20px;
+
+
+}
+.forum-topics{
+
+    background-color: #EDF6FB;
+    height: 280px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    
+
+
+
+}
+.discussion-topic{
+    display: flex;
+    width: 100%;
+    height:100%;
+    
+   
+    flex-direction: column;
+  
+    
+
+
+
+}
+.topic-font{
+    color: black;
+
+
+}
+.topic-description{
+    color: #707070;
+    font-size: 14px;
+
+}
+.discussion-container{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    width: 70%;
+    height: 25%;
+    border-bottom: #707070 1px solid;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-color: rgba(0,0,0,0.15);
+
+}
+.comment-icon{
+
+    margin-right: 30px;
+}
+

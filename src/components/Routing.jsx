@@ -11,7 +11,7 @@ function Routing(){
     <Router>
    
     <Switch>
-        <Route path="/" exact component={Forums}></Route>
+        <Route path="/" exact component={Home}></Route>
    
     </Switch>
  

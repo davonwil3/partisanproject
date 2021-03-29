@@ -9,13 +9,14 @@ function Homepage() {
     
   return(
   <div>
-    <div id="frontpage" className="flex-container">
+    <div id="frontpage" className="flex-container wrapper">
+      <div className="nav-align">
         <Nav
         type = "dark"
         
         />
+      </div>
         
-        <div className="flex-container wrapper">
             <div className="flex-container heading">
             <h1>Get the news, stay informed</h1>
             <h1>Debate politics</h1>
@@ -34,7 +35,7 @@ function Homepage() {
               </Button>
             </div>
         
-        </div>
+        
   
   
   

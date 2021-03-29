@@ -17,9 +17,10 @@ em{
 #frontpage{
     background-image: url(/assets/heroimage.jpg);
     background-size: cover;
-    height: 55vw;
-    min-height: 700px;
-    width:100%;
+    min-height: 100vh;
+    background-position: 80% 90%;
+    min-width:100vw;
+    background-repeat: no-repeat;
   
    
 
@@ -60,6 +61,13 @@ align-self: center;
 }
 
 
+.nav-align{
+    display: flex;
+    align-self: flex-start;
+    position: absolute;
+    top: 0%;
+
+}
 .wrapper{
 
     height: 50vw;

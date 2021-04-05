@@ -3,10 +3,23 @@ import React, { useState } from "react";
 import Button from '@material-ui/core/Button';
 import TextField from '@material-ui/core/TextField';
 import Nav from './navbar';
+import Modal from '@material-ui/core/Modal';
 
 function Homepage() {
     
-    
+  const [modal, setModal]= React.useState();
+  const [open, setOpen] = React.useState(false); 
+  const handleOpen = () => {
+    setOpen(true);
+  };
+ 
+  const handleClose = () => {
+    setOpen(false);
+  };
+ 
+ 
+ 
+
   return(
   <div>
     <div id="frontpage" className="flex-container wrapper">
@@ -25,13 +38,22 @@ function Homepage() {
         
         
             <div className="flex-container login-container">
+            <Modal
+              open={open}
+              onClose={handleClose}
+              aria-labelledby="simple-modal-title"
+              aria-describedby="simple-modal-description"
+            >
+              {modal}
+            </Modal>
+
               <TextField id="standard-basic" label="Username" style = {{width: 300 , marginBottom: 40 , marginTop: 50}} />
               <TextField id="standard-basic" label="Password" type="password" style = {{width: 300}} />
               <Button variant="contained" color="primary" style = {{width: 300 , marginTop: 50}}>
                 Log in
               </Button>
               <div className="divider"></div>
-              <Button variant="contained" color="secondary" style = {{width: 200 , marginTop: 30}}>
+              <Button variant="contained" color="secondary" style = {{width: 200 , marginTop: 30}} onClick= {()=>handleCreate()}>
                 Create Account
               </Button>
             </div>

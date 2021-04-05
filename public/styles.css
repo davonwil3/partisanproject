@@ -85,29 +85,42 @@ align-self: center;
 
 }
 
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 3%;
 
-.heading{
+
+}
+.heading h1{
 
     color: lightblue;
   
     text-align: center;
  
-    margin-bottom: 65px;
+    margin-bottom: 5%;
 
+    font-size: 50px;
 
+    position: relative;
+
+    bottom: 30%;
+    
 
 }
 
 .login-container{
 
-    width: 430px;
+    width: 450px;
     height:390px;
     background-color: white;
    
     flex-direction: column;
     display: flex;
     align-items: center;
-    margin-bottom: 115px;
+    margin-bottom: 175px;
     min-height: 410px;
   
 
@@ -123,8 +136,17 @@ align-self: center;
 
 
 }
+
+.svg-news{
+
+width:100%;
+height:350px;
+
+
+}
 .features-title{
     color: #2699FB;
+    margin-top: 40px;
 }
 .features-description{
 
@@ -132,9 +154,9 @@ align-self: center;
     flex-direction: column;
     text-align: center;
    
-    width: 350px;
+    width: 500px;
     justify-content: baseline;
-    margin: 60px;
+    margin: 110px;
     
 
 
